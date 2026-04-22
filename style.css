@@ -1,0 +1,135 @@
+/* General Reset */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+body { 
+    background: #f4f7f6; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+/* Header */
+header { 
+    background: #00b894; 
+    color: white; 
+    padding: 15px 5%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo { font-size: 1.5rem; font-weight: bold; }
+.logo span { color: #ffe600; }
+
+.back-link { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 0.9rem; 
+    font-weight: 500;
+}
+
+/* Main Container */
+.download-container { 
+    max-width: 700px; 
+    margin: 30px auto; 
+    background: white; 
+    padding: 30px; 
+    border-radius: 20px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* App Header Section */
+.app-header { 
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 25px; 
+}
+
+.main-icon { 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 22px; 
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.main-info h1 { 
+    font-size: 1.5rem; 
+    margin-bottom: 5px; 
+    color: #222;
+}
+
+.main-info p { 
+    font-size: 0.9rem; 
+    color: #666; 
+}
+
+/* Download Section (Button Area) */
+.download-area { 
+    text-align: center; 
+    padding: 40px 10px; 
+    margin: 20px 0; 
+    background: #fafafa; 
+    border-radius: 15px;
+}
+
+#timer-box {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.btn-main { 
+    background: #0984e3; 
+    color: white; 
+    padding: 16px 45px; 
+    text-decoration: none; 
+    border-radius: 35px; 
+    font-weight: bold; 
+    display: inline-block; 
+    box-shadow: 0 6px 20px rgba(9, 132, 227, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-main:hover { 
+    background: #00acee; 
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(9, 132, 227, 0.4);
+}
+
+/* Description Section (About this App) */
+.description { 
+    margin-top: 50px; /* Isse button se gap aayega */
+    padding-top: 30px; 
+    border-top: 2px solid #f0f0f0; 
+    text-align: left;
+}
+
+.description h3 { 
+    font-size: 1.25rem; 
+    margin-bottom: 15px; 
+    color: #222;
+    font-weight: 700;
+}
+
+.description p { 
+    font-size: 1rem; 
+    color: #555; 
+    line-height: 1.7;
+}
+
+/* Responsive Fix for Mobile */
+@media (max-width: 500px) {
+    .app-header { flex-direction: column; text-align: center; }
+    .download-container { margin: 15px; padding: 20px; }
+}
