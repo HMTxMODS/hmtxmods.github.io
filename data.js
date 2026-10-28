@@ -88,21 +88,6 @@ const appsData = [
 
 const gamesData = [
   {
-    "id": "cheak",
-    "name": "checkone",
-    "meta": "v1.0 | 100 | demo",
-    "image": "assets/4.1.PNG",
-    "desc": "judgbvnn,fngfmnm",
-    "tags": [
-      "jhgjhjgru"
-    ],
-    "links": {
-      "mediafire": "#",
-      "mega": "#",
-      "gdrive": "#"
-    }
-  },
-  {
     "id": "subway-surfers",
     "name": "Subway Surfers (Mod Menu)",
     "meta": "v3.2.0 | 120MB | Action",
