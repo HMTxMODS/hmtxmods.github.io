@@ -1,5 +1,20 @@
 const appsData = [
   {
+    "id": "hf",
+    "name": "hf",
+    "meta": "ttr",
+    "image": "https://placehold.co/120x120/075E54/white?text=MOD",
+    "desc": "ghgss",
+    "tags": [
+      "fgfg"
+    ],
+    "links": {
+      "mediafire": "#",
+      "mega": "#",
+      "gdrive": "#"
+    }
+  },
+  {
     "id": "whatsapp",
     "name": "WhatsApp Mod (v2.24)",
     "meta": "Version: 2.24.1 | Size: 45MB | Social",
