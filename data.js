@@ -1,5 +1,20 @@
 const appsData = [
   {
+    "id": "testone",
+    "name": "testone",
+    "meta": "12 | 32| efn",
+    "image": "assets/4.1.PNG",
+    "desc": "ublocked",
+    "tags": [
+      "admin"
+    ],
+    "links": {
+      "mediafire": "#",
+      "mega": "#",
+      "gdrive": "#"
+    }
+  },
+  {
     "id": "whatsapp",
     "name": "WhatsApp Mod (v2.24)",
     "meta": "Version: 2.24.1 | Size: 45MB | Social",
